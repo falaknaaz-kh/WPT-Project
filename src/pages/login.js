@@ -94,7 +94,7 @@ function Login() {
   return (
     <>
       <div className="row justify-content-center">
-        <div className="col-sm-10 col-md-5 mt-5 border rounded-4 border-warning  p-5 opacity-75">
+        <div className="col-sm-10 col-md-5 mt-5 border rounded-4 border-warning  p-5 ">
           <div className="d-flex justify-content-center">
             <div>
               <h1 className="  ">Start Your Journey Here</h1>

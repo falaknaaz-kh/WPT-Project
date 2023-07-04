@@ -29,9 +29,18 @@
 }
 
 .fromto {
-  height: 70vh;
+  min-height: 70vh;
   background-size: cover;
   background-image: url("img/5.jpg");
+  
+  background-position: center;
+  position: relative;
+}
+
+@media (max-width: 768px){
+  .fromto {
+    min-height: 30vh;
+  }
 }
 
 .social {
@@ -105,11 +114,14 @@
 .home {
   background-image: url("img/5.jpg");
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 .buses {
   background-image: url("img/b1.jpg");
   background-size: cover;
   margin-bottom: 50px;
+  background-position: center;
 }
 #c1 {
   background-color: rgb(255, 145, 0);
@@ -297,4 +309,11 @@ h1 {
 
 #container #button:hover {
   background-color: rgb(47, 47, 232);
+}
+
+
+
+
+#header:hover {
+  background-color: white;
 }

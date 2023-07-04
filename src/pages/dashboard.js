@@ -110,10 +110,10 @@ function Dashboard() {
                   NEXT STOP: Khar Telephone Exchange to Khar Ramkrishna Mission
                   to Arya Samaj Mandir
                 </p>
-                
+
                 <Link to={"/booking1"} class="btn btn-warning">
-                Find Route
-                    </Link>
+                  Find Route
+                </Link>
               </div>
             </div>
           </div>
@@ -129,8 +129,8 @@ function Dashboard() {
                   Station to St Teresa School
                 </p>
                 <Link to={"/booking2"} class="btn btn-warning">
-                Find Route
-                    </Link>
+                  Find Route
+                </Link>
               </div>
             </div>
           </div>
@@ -146,8 +146,8 @@ function Dashboard() {
                   Station to St Teresa School
                 </p>
                 <Link to={"/booking3"} class="btn btn-warning">
-                Find Route
-                    </Link>
+                  Find Route
+                </Link>
               </div>
             </div>
           </div>
@@ -160,11 +160,11 @@ function Dashboard() {
                 </h5>
                 <p class="card-text">
                   NEXT STOP: Khar Telephone Exchange to Khar Ramkrishna Mission
-                   to Santacruz Police Station
+                  to Santacruz Police Station
                 </p>
                 <Link to={"/booking4"} class="btn btn-warning">
-                Find Route
-                    </Link>
+                  Find Route
+                </Link>
               </div>
             </div>
           </div>
@@ -289,12 +289,12 @@ function Dashboard() {
           <h1 class="fs-0">Ride On Time</h1>
           <h4>Right On Time</h4>
           <div>
-            <input
-              id="submit"
+            <Link
               class="mt-4 form-control form-control-sm w-50 mb-3 btn btn-warning"
-              type="submit"
-              value="Search Bus"
-            />
+              to={"/buses"}
+            >
+              Search Buses
+            </Link>
           </div>
         </div>
         <div class="col-md-4 col-sm-10">
@@ -308,7 +308,6 @@ function Dashboard() {
         <div class="col-md-2 col-sm-1"></div>
       </div>
 
-
       <div class="container">
         <div class="row mt-5">
           <div class="col-md-2"></div>
@@ -316,9 +315,7 @@ function Dashboard() {
           <div class="col-md-2"></div>
         </div>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
       <Footer />
     </div>
   );

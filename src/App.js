@@ -20,13 +20,14 @@ import Booking5 from "./pages/book5";
 import Booking6 from "./pages/book6";
 import Booking7 from "./pages/book7";
 import Payment from "./pages/payment";
-import Footer from "./pages/footer";
+
 
 function App() {
   return (
     <>
       <BrowserRouter>
       <Navigation />
+     
 
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
@@ -94,7 +95,7 @@ const RedirectPageFb = () => {
 }
 const RedirectPageLi = () => {
   useEffect(() => {
-    window.location.replace('https://twitter.com/__RightOnTime__');
+    window.location.replace('https://www.linkedin.com/in/right-ontime-b41a0027b/ ');
   }, [])
 
   // Render some text when redirecting

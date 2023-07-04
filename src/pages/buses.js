@@ -54,15 +54,13 @@ function Back() {
   </>;
 }
 
-
 function Offers() {
   return (
     <>
       <div class="container">
         <div class="buses" style={{ height: "70vh" }}></div>
 
-        {/* <div class="row mb-5">
-         
+        <div class="row mb-5">
           <div class="col-sm-10 col-md-3">
             <div class="flip-card ">
               <div class="flip-card-inner">
@@ -142,10 +140,8 @@ function Offers() {
           </div>
 
           <div class="col-sm-1 col-md-2"></div>
-        </div> */}
+        </div>
       </div>
-      
-
     </>
   );
 }
@@ -258,12 +254,11 @@ function Star() {
   );
 }
 function CounterApp() {
-   const navigate = useNavigate();
-  function go(){
-    
-    {data.map((item) => (
-      navigate("{item.nav}", { replace: true })
-      ))}
+  const navigate = useNavigate();
+  function go() {
+    {
+      data.map((item) => navigate("{item.nav}", { replace: true }));
+    }
   }
   return (
     <div>
@@ -285,7 +280,6 @@ function CounterApp() {
                   <p>Visits: {item.visits} </p>
                 </div>
                 <Likes />
-
               </div>
             </div>
           </div>
@@ -298,7 +292,7 @@ function CounterApp() {
 
 function Likes() {
   // let counter = 100; // stateless
-  let [counter, setCounter] = useState(0); // stateful + DOM Opr
+  let [counter, setCounter] = useState(10); // stateful + DOM Opr
 
   let likeMeAction = () => {
     counter = counter + 1;
@@ -307,8 +301,7 @@ function Likes() {
     // how to trigger the DOM Opr
     setCounter(counter);
   };
- 
-  
+
   return (
     <div>
       <div>
@@ -322,7 +315,6 @@ function Likes() {
           />
           {counter}
         </h4>
-        
       </div>
     </div>
   );
