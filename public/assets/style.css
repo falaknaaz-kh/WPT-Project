@@ -1,0 +1,300 @@
+#header {
+  width: 100%;
+  height: 100%;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.imgsus {
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+}
+
+.i1 {
+  background-size: cover;
+  margin: 40px;
+  margin-right: 200px;
+  height: 400px;
+  width: 650px;
+  border-radius: 5%;
+  position: relative;
+}
+.stoff{
+
+  height: 300px;
+  width: 450px;
+  border-radius: 5%;
+
+}
+
+.fromto {
+  height: 70vh;
+  background-size: cover;
+  background-image: url("img/5.jpg");
+}
+
+.social {
+  text-align: center;
+}
+#offer {
+  border-radius: 10px;
+  text-align: left;
+
+}
+.fa {
+  padding: 20px;
+  padding-top: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.copy {
+  text-align: center;
+}
+.flink {
+  text-decoration: none;
+}
+
+.login {
+  margin-top: 150px;
+}
+
+.registration {
+  margin-top: 25px;
+}
+
+.fcc-btn {
+  background-color: #99a014;
+  color: rgb(27, 12, 12);
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.fcc-btn:hover {
+  background-color: #0681a3;
+}
+
+.bg-img {
+  background-image: url("img/8.jpg");
+  background-size: cover;
+
+  position: relative;
+}
+
+.bg1-img {
+  background-image: url("img/3.jpg");
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+}
+
+.img {
+  background-image: url("img/6.jpg");
+  background-size: cover;
+}
+
+.home {
+  background-image: url("img/5.jpg");
+  background-size: cover;
+}
+.buses {
+  background-image: url("img/b1.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+}
+#c1 {
+  background-color: rgb(255, 145, 0);
+}
+#c2 {
+  background-color:rgb(209, 64, 6);
+}
+#c3 {
+  background-color: rgb(9, 164, 94);
+}
+#c4 {
+  background-color: rgb(118, 37, 162);
+}
+#gender {
+  color: yellow;
+  font-size: larger;
+}
+#checkbox {
+  color: yellow;
+  font-size: larger;
+}
+#caro {
+padding-right: 100px;
+}
+#det {
+  justify-content: space-between;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.selection {
+  margin-top: 100px;
+}
+
+.to {
+  width: 50px;
+}
+
+.forgot {
+  text-decoration: none;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #f1f1f1;
+  justify-content: space-between;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.inr {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.main {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.too{
+  justify-content: space-between;
+}
+
+#container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#container #button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:rgb(226, 226, 17);;
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+#container #button:hover {
+  background-color: rgb(47, 47, 232);
+}

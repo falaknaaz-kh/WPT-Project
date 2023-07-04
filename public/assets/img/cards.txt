@@ -1,0 +1,64 @@
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card">
+            <img src="0map.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                From Bandra Bus Station West to Malad Bus Depot
+              </h5>
+              <p class="card-text">
+                NEXT STOP -> Khar Telephone Exchange -> Khar Ramkrishna Mission
+                -> Arya Samaj Mandir
+              </p>
+              <a href="#" class="btn btn-warning">Find Route</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card">
+            <img src="1map.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                From Worli Depot to Marol Maroshi Bus Station
+              </h5>
+              <p class="card-text">
+                NEXT STOP -> Old Khar -> Khar Station West -> Khar Police
+                Station -> St Teresa Convent School
+              </p>
+              <a href="#" class="btn btn-warning">Find Route</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card">
+            <img src="3map.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                From Pt Paluskar Chowk to Goregaon Bus Station West
+              </h5>
+              <p class="card-text">
+                NEXT STOP -> Old Khar -> Khar Station West -> Khar Police
+                Station -> St Teresa Convent School
+              </p>
+              <a href="#" class="btn btn-warning">Find Route</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card">
+            <img src="4map.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                From Kamla Nehru Park to J V P D Bus Station
+              </h5>
+              <p class="card-text">
+                NEXT STOP ->  Khar Telephone Exchange -> Khar Ramkrishna
+                Mission -> Arya Samaj Mandir -> Santacruz Police Station
+              </p>
+              <a href="#" class="btn btn-warning">Find Route</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
